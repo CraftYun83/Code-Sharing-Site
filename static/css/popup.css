@@ -1,0 +1,35 @@
+smq-popup {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.2);
+  z-index: 2000;
+  display: block;
+}
+
+smq-popup .window {
+  padding: 10px 20px 20px;
+  margin: 150px auto;
+  margin-top: 2%;
+  width: 50vw;
+  min-height: 100px;
+  background: #536878;
+  border-radius: 10px;
+  color: white;
+  font-family: sans-serif;
+}
+
+smq-popup .close {
+  margin: 0 10px 0 0;
+  float: right;
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+smq-popup header.api-header h1 {
+  font-size: 1.5rem;
+}
